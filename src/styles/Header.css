@@ -18,3 +18,27 @@ header {
     gap:42px;
     color: #FF6060;
 }
+
+@media screen and (max-width: 768px) {
+    header {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    /* body {
+        background-color: pink;
+    } */
+
+    header {
+        font-size: 1em;
+    }
+
+    .logo {
+        flex-basis: 45%;
+    }
+
+    .header-nav {
+        gap:20px;
+    }
+}
