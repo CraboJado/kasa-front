@@ -1,0 +1,27 @@
+main {
+    padding: 2% 5%;
+}
+
+.location-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:3% 2.5%;
+    background-color: #F6F6F6;
+    border-radius: 10px;
+    gap:24px;
+}
+
+@media screen and (max-width: 768px) {
+ 
+}
+
+@media screen and (max-width: 576px) {
+
+    .location-list {
+        flex-direction: column;
+        padding:0;
+        background-color:transparent;
+        
+    }
+}
