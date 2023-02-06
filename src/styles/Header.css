@@ -1,0 +1,20 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 5%;
+    font-size: 1.5em;
+}
+.logo {
+    flex-basis: 16%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.header-nav {
+    display: flex;
+    gap:42px;
+    color: #FF6060;
+}
