@@ -36,11 +36,11 @@ export default function Logement() {
                 </div>
             </div>
             <div className="content-wrapper">
-                <div className="description">
+                <article className="description">
                     <DropDownBar title = 'Description'/>
                     <DropDownContent content = {'Description'}/>
-                </div>
-                <div className="equipment">
+                </article>
+                <article className="equipment">
                     <DropDownBar title = 'Équipements'/>
                     <ul className="equipment-list">
                         <li>Climatisation</li>
@@ -51,7 +51,7 @@ export default function Logement() {
                         <li>Sèche-cheveux</li>
                         <li>Cintres</li>
                     </ul>
-                </div>
+                </article>
             </div>
         </section>
     </main>

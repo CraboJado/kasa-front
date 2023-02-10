@@ -88,12 +88,12 @@ main {
 }
 
 
-.description:hover .dropdown .chevron-down {
+.description:hover .dropdown-bar .chevron-down {
     display: block;    
     opacity: 1;
 }
 
-.description:hover .dropdown .chevron-up {
+.description:hover .dropdown-bar .chevron-up {
     display: none;
     opacity: 0;
 }
