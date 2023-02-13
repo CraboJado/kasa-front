@@ -1,9 +1,9 @@
-.banner {
+.Banner {
     position: relative;
     margin-bottom: 6%;
 }
 
-.banner h1{
+.Banner__title {
     margin:0;
     position: absolute;
     top:50%;
@@ -15,13 +15,13 @@
     font-size: 2.1em;
 }
 
-.banner img {
+.Banner__img {
     width: 100%; 
 }
 
 @media screen and (max-width: 768px) {
 
-    .banner h1 {
+    .Banner__title {
         width: 100%;
         font-size: 1.5em;
         text-align: center;
@@ -30,12 +30,12 @@
 
 @media screen and (max-width: 576px) {
 
-    .banner {
+    .Banner {
         height: 155px;
         display: flex;
     }
 
-    .banner h1 {
+    .Banner__title {
         text-align: left;
         font-size: 1.5em;
         width: 63%;
