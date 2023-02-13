@@ -1,13 +1,9 @@
-
-.DropDownContent {
+.CollapseContent {
     font-size: 0.8em;
     color:#FF6060;
     padding:3%;
     transition: 0.3s;
 }
-
-
-
 
 @media screen and (max-width: 768px) {
 
