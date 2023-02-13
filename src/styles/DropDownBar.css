@@ -1,4 +1,4 @@
-.dropdown-bar {
+.DropDownBar {
     background-color: #FF6060;
     font-size: 0.8em;
     color: #fff;
@@ -10,18 +10,18 @@
     
 }
 
-.dropdown-bar__title {
+.DropDownBar__title {
     font-weight: 300;
     margin: 3% 0;
 }
 
-.dropdown-bar .chevron-down {
+.DropDownBar__chevron-down {
     display: none;
     opacity: 0;
     transition: 0.3s;
 }
 
-.dropdown-bar .chevron-up {
+.DropDownBar__chevron-up {
     transition: 0.3s;
 }
 

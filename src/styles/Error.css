@@ -1,5 +1,5 @@
 
-.error {
+.Error {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,17 +8,17 @@
     margin-top: 8em;
 }
 
-.error__code {
+.Error__code {
     font-size: 9em;
     font-weight: 600;
     margin: 0;
 }
 
-.error__msg {
+.Error__msg {
     font-weight: 500;
 }
 
-.error a {
+.Error a {
     margin-top: 6em;
     border-bottom: 1px solid #FF6060;
     font-size: 0.8em;
@@ -32,11 +32,11 @@
 
 @media screen and (max-width: 576px) {
 
-    .error__code {
+    .Error__code {
         font-size: 6em;
     }
 
-    .error__msg {
+    .Error__msg {
         display: flex;
         flex-direction: column;
         align-items: center;

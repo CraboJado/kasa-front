@@ -1,44 +1,41 @@
-header {
+.Header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2% 5%;
     font-size: 1.5em;
 }
-.logo {
+.Header__logo-wrap {
     flex-basis: 16%;
 }
 
-.logo img {
+.Header__logo {
     width: 100%;
 }
 
-.header-nav {
+.Header__nav {
     display: flex;
     gap:42px;
     color: #FF6060;
 }
 
 @media screen and (max-width: 768px) {
-    header {
+    .Header {
         font-size: 1.2em;
     }
 }
 
 @media screen and (max-width: 576px) {
-    /* body {
-        background-color: pink;
-    } */
 
-    header {
+    .Header {
         font-size: 1em;
     }
 
-    .logo {
+    .Header__logo-wrap {
         flex-basis: 45%;
     }
 
-    .header-nav {
+    .Header__nav {
         gap:20px;
     }
 }

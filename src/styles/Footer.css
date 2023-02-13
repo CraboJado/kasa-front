@@ -1,4 +1,4 @@
-footer {
+.Footer {
     background-color: #000;
     display: flex;
     flex-direction: column;
@@ -8,16 +8,16 @@ footer {
     margin-top: 2%;
 }
 
-.footer-logo {
+.Footer__logo-wrap {
     width: 8%;
 }
 
-.footer-logo img {
+.Footer__logo {
     width: 100%;
 }
 
 
-footer p {
+.Footer__copyright {
     color:#fff; 
 }
 
@@ -29,7 +29,7 @@ footer p {
 
 @media screen and (max-width: 576px) {
     
-    .footer-logo {
+    .Footer__logo-wrap {
         width: 44%;
     }
 }

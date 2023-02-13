@@ -1,18 +1,18 @@
-.slideshow {
+.SlideShow {
     position: relative;
     height: 300px;
     overflow: hidden;
     
 }
 
-.slides {
+.SlideShow__slides-wrap {
     width: 100%;
     position: relative;
     transition: 1s;
     display: flex;
 }
 
-.slides img {
+.SlideShow__slide {
     /* position: absolute; */
     width: 100%;
     height: 300px;
@@ -20,8 +20,8 @@
     flex-shrink: 0;
 }
 
-.slideshow__chevron-left,
-.slideshow__chevron-right {
+.Slideshow__chevron-left,
+.Slideshow__chevron-right {
     position: absolute;
     top:50%;
     font-size: 3em;
@@ -31,15 +31,15 @@
     
 }
 
-.slideshow__chevron-left {
+.Slideshow__chevron-left {
     left:2%;
 }
 
-.slideshow__chevron-right {
+.Slideshow__chevron-right {
     right:2%;
 }
 
-.pages {
+.SlideShow__pages {
     position: absolute;
     bottom: 0;
     font-size: 0.8em;
@@ -53,7 +53,7 @@
 ajouter css pour dynamiser les slides
 */
 
-.slideshow:hover .slides{
+.Slideshow:hover .SlideShow__slide{
     transform: translate(-100%);
 }
 

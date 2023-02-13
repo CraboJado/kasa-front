@@ -4,11 +4,11 @@ import '../styles/Footer.css'
 
 export default function Footer() {
   return (
-    <footer>
-        <div className="footer-logo">
-            <img src={logo} alt="logo"/>
+    <footer className="Footer">
+        <div className="Footer__logo-wrap">
+            <img className="Footer__logo" src={logo} alt="logo"/>
         </div>
-        <p>© 2020 Kasa. All rights reserved</p>
+        <p className="Footer__copyright">© 2020 Kasa. All rights reserved</p>
     </footer>
   )
 }

@@ -1,8 +1,8 @@
-main {
+.Home {
     padding: 2% 5%;
 }
 
-.location-list {
+.Home__location-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -18,7 +18,7 @@ main {
 
 @media screen and (max-width: 576px) {
 
-    .location-list {
+    .Home__location-list {
         flex-direction: column;
         padding:0;
         background-color:transparent;
