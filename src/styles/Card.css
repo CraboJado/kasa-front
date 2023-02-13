@@ -1,38 +1,48 @@
-.Location {
+.Card {
     width: 30%;
     position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
-.Location:after {
+.Card::after {
     content:'';
     display:block;
     width:100%;
     height:50%;
     background:linear-gradient(to bottom, transparent, black);
     position: absolute;
-    bottom: 3px;
-    opacity: 0.2;
-    border-radius: 10px;
-
+    bottom: 0;
+    opacity: 0.5;
   }
 
-.Location__img {
+
+
+.Card__img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 } 
 
-.Location__title {
+.Card__title {
     position: absolute;
     bottom: 0;
-    color: #fff;
+    color: white;
     font-weight: 400;
     padding-left: 5%;
-    width: 42%;
+    width: 80%;
     font-size: 1em;
 }
 
 @media screen and (max-width: 768px) {
 
-    .Location__title {
+    .Card {
+        width: 45%;
+
+    }
+
+    .Card__title {
         width: 55%;
         font-size: 0.8em
     }
@@ -41,13 +51,13 @@
 
 @media screen and (max-width: 576px) {
 
-    .Location {
+    .Card {
         width:100%;
-        /* height:20vh; */
+        height: 300px;
     }
 
-    .Location__title {
-        width: 22%;
+    .Card__title {
+        width: 40%;
         font-size: 0.9em;
         bottom: 7px;
     }
