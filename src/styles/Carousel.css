@@ -1,27 +1,28 @@
-.SlideShow {
+.Carousel {
     position: relative;
     height: 300px;
     overflow: hidden;
     
 }
 
-.SlideShow__slides-wrap {
+.Carousel__img-wrap {
     width: 100%;
     position: relative;
     transition: 1s;
     display: flex;
 }
 
-.SlideShow__slide {
+.Carousel__img {
     /* position: absolute; */
     width: 100%;
     height: 300px;
     object-fit: cover;
     flex-shrink: 0;
+    border-radius:10px;
 }
 
-.Slideshow__chevron-left,
-.Slideshow__chevron-right {
+.Carousel__chevron-left,
+.Carousel__chevron-right {
     position: absolute;
     top:50%;
     font-size: 3em;
@@ -31,21 +32,21 @@
     
 }
 
-.Slideshow__chevron-left {
+.Carousel__chevron-left {
     left:2%;
 }
 
-.Slideshow__chevron-right {
+.Carousel__chevron-right {
     right:2%;
 }
 
-.SlideShow__pages {
+.Carousel__pages {
     position: absolute;
     bottom: 0;
-    font-size: 0.8em;
+    font-size: 1em;
     left:50%;
     bottom: 5%;
-    
+    color: white;
 }
 
 
