@@ -1,8 +1,9 @@
 .Collapse {
     width: 75%;
-    background-color: #F6F6F6;
+    /* background-color: #F6F6F6; */
     border-radius: 0.5em;
     transition: 0.3s;
+    /* height: 100px; */
     
 }
 
@@ -15,6 +16,7 @@
     align-items: center;
     padding: 0 3%;
     border-radius: 0.5em;
+    cursor: pointer;
     
 }
 
@@ -23,7 +25,7 @@
     margin: 3% 0;
 }
 
-.Collapse__chevron-down {
+/* .Collapse__chevron-down {
     display: none;
     opacity: 0;
     transition: 0.3s;
@@ -31,7 +33,7 @@
 
 .Collapse__chevron-up {
     transition: 0.3s;
-}
+} */
 
 
 
