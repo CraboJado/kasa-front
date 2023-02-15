@@ -8,7 +8,7 @@ import "../styles/About.css";
 export default function About() {
   return (
     <main className="About">
-      <Banner banner={banner} />
+      <Banner img = {banner} />
       <section className="About__company-values">
         <Collapse title={"Fiabilité"}>
           <CollapseContent
