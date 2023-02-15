@@ -12,13 +12,14 @@
 }
 
 .Detail__location__title {
-    font-size: 1.3em;
-    margin-bottom: 0.8%;
+    font-size: 1.7em;
+    /* margin-bottom: 0.8%; */
+    margin: 0.8% 0;
     font-weight: 500;
 }
 
 .Detail__location__city {
-    font-size: 0.8em;
+    font-size: 1em;
     margin:1.5% 0;
 }
 
@@ -50,10 +51,12 @@
     width: 50%;
     margin: 0;
     font-size: 0.9em;
+    font-weight:500;
 }
 
 .host__avatar {
-    width: 35px;
+    width: 38px;
+    border-radius: 50%;
 }
 
 .Detail__evaluation {
@@ -62,50 +65,16 @@
     justify-content: space-around;
 }
 
-.stars {
-    display: flex;
-    justify-content: flex-end;
-    padding: 0;
-    margin: 0;
-    font-size: 1.3em;
-    gap: 0.3em;
-}
+
 
 .Detail__content-wrap {
     display: flex;
     justify-content: space-between;
     margin-top: 2%;
+    gap:5%;
     
 }
 
-/* .description,
-.equipment {
-    width: 45%;
-    background-color: #F6F6F6;
-    border-radius: 0.5em;
-    transition: 0.3s;
-    
-} */
-
-
-/* .description:hover .dropdown-bar .chevron-down {
-    display: block;    
-    opacity: 1;
-}
-
-.description:hover .dropdown-bar .chevron-up {
-    display: none;
-    opacity: 0;
-}
-
-.description:hover .content {
-    display: none;
-    opacity: 0;
-}
-
-.description:hover {
-    background-color: transparent;
-} */
 
 .equipment-list {
     font-size: 0.8em;
