@@ -1,19 +1,26 @@
 import React, { useState } from "react";
-import carrousel from "../assets/images/Carrousel.png";
-import maskGroup from "../assets/images/MaskGroup.png";
 import '../styles/Carousel.css'
 
 export default function Carousel({pictures}) {
   const [currentPage, setCurrentPage] = useState(1)
 
   const preSlide = () => {
-    if(currentPage === 1 ) return
-    setCurrentPage(currentPage - 1)
+ 
+    if(currentPage === 1 ) {
+      setCurrentPage(pictures.length)
+    }else{
+      setCurrentPage(currentPage - 1)
+    }
+    
   }
 
   const nextSlide = () => {
-    if(currentPage > pictures.length - 1) return
-    setCurrentPage(currentPage+1)
+    if(currentPage > pictures.length - 1) {
+      setCurrentPage(1)
+    }else{
+      setCurrentPage(currentPage+1)
+    }
+    
   }
 
   

@@ -3,7 +3,7 @@ import '../styles/Collapse.css'
 
 export default function Collapse({ title, children }) {
 
-  const [isOpen, setIsOpen] = useState(true)
+  const [isOpen, setIsOpen] = useState(false)
 
   const showContent = () => {
     setIsOpen(!isOpen)
