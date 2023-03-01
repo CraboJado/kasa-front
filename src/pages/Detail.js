@@ -4,7 +4,7 @@ import Collapse from "../components/Collapse";
 import CollapseContent from "../components/CollapseContent";
 import Hashtags from "../components/Hashtags";
 import Stars from "../components/Rating";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 
 import "../styles/Detail.css";
 
@@ -13,6 +13,7 @@ export default function Detail() {
   
   const { id } = useParams();
   const [lodge, setLodge] = useState({})
+  const navigate = useNavigate()
 
   // normally, we fetch a product detail with id 
   useEffect(()=>{
@@ -20,7 +21,12 @@ export default function Detail() {
     .then( response => response.json())
     .then( data => {
       const lodge = data.find(element => element.id === id)
-      setLodge(lodge)
+      if(!lodge) {
+        navigate('*')
+      }else{
+        setLodge(lodge)
+      }
+      
     })
     .catch( err => console.log(err))
   },[])
